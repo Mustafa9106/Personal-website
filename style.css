@@ -42,7 +42,7 @@ background: url(background2.svg);
 /* background-position: center; */
 background-size: cover;
 color:gainsboro;
-height: 80vh;
+height: 100vh;
 
 }
 .right-home{
@@ -122,15 +122,13 @@ height: 80vh;
 
 .skills{
   /* background: linear-gradient(45deg, blueviolet , lightgreen); */
-padding: 20px 9% ;
-padding-bottom: 60px;
+padding: 50px 9% ;
 /* background: url(background2.svg); */
-background-size: cover;
-background-position: center;
 /* background-color: #483285; */
 background: linear-gradient(20deg, rgb(95, 90, 97), rgb(70, 2, 97), rgba(0, 0, 0, 0.562));
 color: white;
 /* height: 100vh; */
+
 
 }
 .heading{
@@ -144,7 +142,7 @@ color: white;
 }
 .skills .box-container{
   display: grid;
-  gap: 20px;
+  gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(270px ,1fr));
   align-items: center;
 }
@@ -154,7 +152,7 @@ color: white;
   background: linear-gradient(50deg, rgba(110, 107, 107, 0.233), rgba(83, 81, 81, 0.486));
   text-align: center;
   padding: 40px 20px;
-  height: 25vh;
+  height: 35vh;
   align-items: center;
   /* border: 1px solid white; */
   
@@ -256,6 +254,7 @@ font-size: 20px;
 background-size: cover;
 /* opacity: 0.9; */
 
+
 }
 .left-contact{
 width: 50%;
@@ -278,7 +277,7 @@ gap: 20px;
 
 }
 .right-contact input{
-  padding: 10px;
+  padding: 6px;
   border: none;
   background-color: rgba(128, 128, 128, 0.781);
   
@@ -286,6 +285,7 @@ gap: 20px;
 }
 input::placeholder{
   color: white;
+  
 }
 /* .contact-btn{
   border: none;
@@ -300,12 +300,13 @@ input::placeholder{
   cursor: pointer;
 } */
 .universal-button{
-  padding: 10px;
+  padding: 6px;
   border: none;
   background-color: black;
   border-radius: 9px;
   letter-spacing: 2px;
   color: white;
+  font-size: 15px;
   
 }
 .universal-button:hover{
